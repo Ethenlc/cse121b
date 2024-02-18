@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.initial-cell {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+td:hover {
+    background-color: #e6e6e6;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 0 5px;
+}
